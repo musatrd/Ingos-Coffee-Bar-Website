@@ -1,0 +1,24 @@
+body {
+    background-color: #2c2c32;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    line-height: 1;
+    color: inherit;
+    font-family: "Euclid Circular A";
+    font-size: 20px;
+}
+
+@media (media >= 500px) {
+    button { font-size: 16px; }
+}
+
+:is(.navbar, .burger, .dropdowns) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
