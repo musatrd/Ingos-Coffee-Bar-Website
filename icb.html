@@ -1,38 +1,64 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-
-        <title>ICB Demo</title>
-
-        <link href="styles/style.css" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navbar 1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+        rel="stylesheet"/>
+        <link href="styles/style.css" rel="stylesheet" />
     </head>
     <body>
         <nav class="navbar">
             <button onclick="toggleMenu()" class="burger"></button>
-            <button class="button">Ingos Coffee Bar</button>
-            <div class="dropdown">
-                <div class="dropdowns">
+            <div class="button">
+                <button>
+                    <img class="logo" src="/icons/icb-logo.jpg"/>
+                    INGOS COFFEE BAR
+                </button>
+            </div>
+            <div class="dropdowns">
+                <div class="dropdown">
                     <button class="button">
-                        Service
-                        <img class="exp" src="icons/expand.png">
+                        About
+                        <img src="/icons/chevron.svg" />
                     </button>
                     <div class="dropdown-menu">
-                        <button>Something</button>
-                        <button>Something</button>
-                        <button>Something</button>
+                        <button>Community</button>
+                        <button>Vision</button>
                     </div>
                 </div>
-                <!-- Other dropdowns -->
+                <div class="dropdown">
+                    <button class="button">
+                        Products
+                        <img src="/icons/chevron.svg" />
+                    </button>
+                    <div class="dropdown-menu">
+                        <button>Shelf Goods</button>
+                        <button>Bakery</button>
+                        <button>Beverages</button>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="button">
+                        Contact
+                        <img src="/icons/chevron.svg" />
+                    </button>
+                    <div class="dropdown-menu">
+                        <button>Bookings</button>
+                        <button>Shop</button>
+                        <button>Queries</button>
+                    </div>
+                </div>
             </div>
         </nav>
         <script>
-            const toggleMenu = ( ) =>
-                document.body.classList.toggle("open");
+            const toggleMenu = () => document.body.classList.toggle("open");
         </script>
     </body>
 </html>
