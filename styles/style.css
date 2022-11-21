@@ -13,7 +13,7 @@ button {
     font-size: 20px;
 }
 .logo {
-    height: 30px;
+    height: 40px;
 }
 
 @media (width >= 700px) {
@@ -73,18 +73,28 @@ body.open .burger {
     display: none;
 }
 
+.ingo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ingo img {
+    margin: 0 20px 0 0;
+}
+
 @media (width >= 700px) {
     .button {
         padding: 0 10px 0 24px;
     }
     .button button {
-        width: 230px;
+        width: 270px;
     }
     .button > img {
         display: block;
     }
     .logo {
-        height: 30px;
+        height: 40px;
+        padding: 0 0 0 4px;
     }
 }
 
