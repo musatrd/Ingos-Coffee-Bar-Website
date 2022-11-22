@@ -1,0 +1,44 @@
+.main {
+    margin: 100px 70px 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 17px;
+    position: static;
+}
+.head {
+    margin: 0;
+    border-radius: 9px;
+    padding: 10px 0px;
+    background-color: #19191c;
+    color: white;
+    opacity: 0.6;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 0;
+}
+.post {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    z-index: 0;
+}
+.post img {
+    height: 200px;
+    width: 340px;
+    object-fit: cover;
+    margin: 40px 0 0 0;
+    align-items: center;
+    border-radius: 1px;
+}
+
+.info p {
+    color: white;
+    opacity: 0.6;
+    margin: 0;
+}
+.info {
+    margin: 20px 0;
+}

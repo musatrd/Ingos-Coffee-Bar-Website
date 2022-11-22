@@ -16,6 +16,8 @@ button {
     height: 40px;
 }
 
+
+
 @media (width >= 700px) {
     button {
         font-size: 20px;
@@ -102,6 +104,7 @@ body.open .burger {
     .dropdown:hover .button {
         opacity: 1;
     }
+    
 }
 
 .dropdowns {
@@ -195,5 +198,9 @@ body.open .burger {
 }
 
 .dropdown-menu > button:hover {
+    opacity: 1;
+}
+
+.ingo img:hover p:hover {
     opacity: 1;
 }
