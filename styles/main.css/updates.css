@@ -1,7 +1,9 @@
 .main {
     margin: 100px 70px 700px;
+}
+.content {
+    grid-template-columns: 1fr 1fr 1fr;
     display: grid;
-    grid-template-columns: 1fr;
     column-gap: 17px;
     position: static;
 }
