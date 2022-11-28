@@ -44,3 +44,10 @@
 .info {
     margin: 20px 0;
 }
+.link p {
+    color: rgb(0, 0, 128);
+}
+.link p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
